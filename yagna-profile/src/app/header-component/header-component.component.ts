@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { MatMenuTrigger } from '@angular/material/menu';
 
 
 @Component({
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-component.component.css']
 })
 export class HeaderComponentComponent {
-
+  @ViewChild(MatMenuTrigger) menuTrigger!: MatMenuTrigger;
+  
+  isMenuOpen = false;
+  constructor() {};
+  
 }
