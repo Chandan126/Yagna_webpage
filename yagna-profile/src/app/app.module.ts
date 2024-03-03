@@ -14,13 +14,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { ProfilePictureComponent } from './profile-picture/profile-picture.component';
 import { ProfilePictureDataComponent } from './profile-picture-data/profile-picture-data.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
     ProfilePictureComponent,
-    ProfilePictureDataComponent
+    ProfilePictureDataComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
