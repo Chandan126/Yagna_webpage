@@ -8,7 +8,6 @@
     min-height: 100vh; /* Ensure the container covers the entire viewport height */
     color: #fff;
     padding: 20px;
-
     /* Set the background color with reduced opacity */
     background-color: rgba(0, 0, 0, 0.2); /* Adjust the alpha value (0.7 for 70% opacity) */
 }
