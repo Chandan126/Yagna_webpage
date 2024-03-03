@@ -1,3 +1,15 @@
-.example-spacer {
-    flex: 1 1 auto;
+  .custom-toolbar {
+    display: flex;
+    gap: 150px; /* Adjust the gap as needed */
   }
+  
+  .custom-button {
+    padding: 8px 16px; /* Adjust padding as needed */
+    background: none; /* Add your preferred background color */
+    color:white; /* Add your preferred text color */
+    border: none;
+    cursor: pointer;
+    font-weight: bold; /* Add this line to make the text bold */
+    font-size: large;
+  }
+  
