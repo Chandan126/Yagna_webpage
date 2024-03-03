@@ -1,0 +1,47 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .github-icon {
+    padding: 2px;
+    font-size: 48px; /* Adjust the size as needed */
+    cursor: pointer;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  .linkedin-icon {
+    cursor: pointer;
+    fill: blue;
+  }
+  
+  .gmail-icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+    fill: #d93025; /* Adjust the color as needed */
+    cursor: pointer; /* Optional: Change cursor on hover */
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the spacing between sets of icon and details */
+  }
+  
+  .phone-icon svg,
+  .mail-icon svg {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+    fill: #4285f4; /* Adjust the color as needed */
+    margin-right: 10px; /* Adjust the spacing between icon and details */
+  }
+  
+  .contact-details {
+    font-size: 15px; /* Adjust the font size as needed */
+    line-height: 1.5;
+  }
+  
