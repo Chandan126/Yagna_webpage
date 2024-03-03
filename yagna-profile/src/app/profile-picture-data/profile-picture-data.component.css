@@ -6,7 +6,7 @@
     padding: 2px;
     font-size: 48px; /* Adjust the size as needed */
     cursor: pointer;
-    color: #333; /* Adjust the color as needed */
+    color: blue; /* Adjust the color as needed */
   }
   
   .linkedin-icon {
@@ -43,5 +43,6 @@
   .contact-details {
     font-size: 15px; /* Adjust the font size as needed */
     line-height: 1.5;
+    padding: 10px;
   }
   

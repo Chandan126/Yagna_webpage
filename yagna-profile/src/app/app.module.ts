@@ -4,6 +4,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,7 +29,8 @@ import { ProfilePictureDataComponent } from './profile-picture-data/profile-pict
     MatButtonModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
