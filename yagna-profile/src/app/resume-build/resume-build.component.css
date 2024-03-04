@@ -1,7 +1,23 @@
-/* styles.css (or your component-specific style file) */
 .center-container {
-    display: grid;
-    place-items: top;
-    height: 100vh; /* Adjust as needed */
-  }
-  
+  max-width: 800px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+  color: yellow; 
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: yellow; 
+  font-size: 17px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
