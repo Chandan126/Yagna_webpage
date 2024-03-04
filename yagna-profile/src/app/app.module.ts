@@ -15,6 +15,7 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 import { ProfilePictureComponent } from './profile-picture/profile-picture.component';
 import { ProfilePictureDataComponent } from './profile-picture-data/profile-picture-data.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ResumeBuildComponent } from './resume-build/resume-build.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     HeaderComponentComponent,
     ProfilePictureComponent,
     ProfilePictureDataComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ResumeBuildComponent
   ],
   imports: [
     BrowserModule,
