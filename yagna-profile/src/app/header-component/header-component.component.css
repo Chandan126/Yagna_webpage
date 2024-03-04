@@ -6,10 +6,10 @@
   .custom-button {
     padding: 8px 16px; /* Adjust padding as needed */
     background: none; /* Add your preferred background color */
-    color:white; /* Add your preferred text color */
+    color: white; /* Add your preferred text color */
     border: none;
     cursor: pointer;
     font-weight: bold; /* Add this line to make the text bold */
-    font-size: large;
+    font-size: 25px;
   }
   
