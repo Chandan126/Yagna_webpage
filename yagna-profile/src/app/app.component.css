@@ -5,7 +5,7 @@
     background-size: cover; /* Adjust the background size as needed */
     background-attachment: fixed; /* Add this line for a fixed background */
     background-position: center; /* Adjust the background position as needed */ 
-    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+    min-height: 30vh; /* Ensure the container covers the entire viewport height */
     color: #fff;
     padding: 20px;
     /* Set the background color with reduced opacity */

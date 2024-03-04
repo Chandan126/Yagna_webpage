@@ -1,0 +1,7 @@
+/* styles.css (or your component-specific style file) */
+.center-container {
+    display: grid;
+    place-items: top;
+    height: 100vh; /* Adjust as needed */
+  }
+  
