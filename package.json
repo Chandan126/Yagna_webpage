@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "homepage": "https://chandan126.github.io/Yagna_Page_Deploy/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.0.0",
